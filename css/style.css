@@ -1,0 +1,157 @@
+@media screen and (max-width: 991px){
+	.rating-detail{
+		display: block !important;
+		clear: both !important;
+		float: left !important;
+		margin-top: 10px !important;
+	}
+	.rating{
+		clear: both !important;
+		float: left !important;
+	}
+}
+
+body{
+	background-color: #F5F5F5;
+	padding-top: 30px;
+}
+
+.sidebar-inner-body{
+	-webkit-box-shadow: 0 0 10px #D2D2D2;
+        box-shadow: 0 0 10px #D2D2D2;
+}
+
+.sidbar-heading{
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #002F3F;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.sidebar-checklist{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	background-color: #FFFFFF;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.single-category-heading-text{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.info-circle-icon{
+	font-size: 18px;
+	color: #D2D2D2;
+}
+.up-icon{
+	color: #45A4A3;
+}
+
+.chkbox{
+	width: 16px;
+	height: 16px;
+}
+
+.destination-image-container{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/des1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px !important;
+}
+
+.destination-info-container{
+	background-color: #FFFFFF;
+}
+.destination-info{
+	padding: 20px 16px;
+	margin: 0px !important;
+}
+.destination-name-container h4{
+	text-decoration: underline;
+}
+.rating-stars i{
+	color: #FDAC2F;
+}
+.rating{
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 5px 8px;
+	border-radius: 5px;
+	background-color: #EE9147;
+}
+.category{
+	clear: both;
+	color: #EE9147;
+}
+
+.price-info{
+	clear: both;
+	padding: 20px 16px;
+}
+
+.price-tag-container{
+	background-color: #FBAF3F;
+	color: #FFFFFF;
+	padding: 0px 10px 5px 10px;
+	width: auto;
+	border-radius: 10px;
+}
+.price-tag-container span{
+	padding: 0px !important;
+}
+
+.price-tag{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.facilities{
+	clear: both;
+	padding: 20px 16px;
+}
+.facilities-container{
+	background-color: #FFF6ED;	
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.facilities-container i{
+	color: #FBAF3F;
+}
+
+.facilities-container span{
+	background-color: #F2E9E2;
+	padding: 3px 6px;
+	border-radius: 2px;
+	margin-right: 3px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+
+/* Search Field*/
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control-underlined {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  padding-left: 0;
+}
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
